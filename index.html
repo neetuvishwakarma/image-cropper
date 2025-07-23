@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Cropper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>🖼️ Image Cropper Tool</h2>
+    <input type="file" id="imageInput" accept="image/*">
+    <div class="canvas-container">
+        <canvas id="mainCanvas" width="500" height="500"></canvas>
+        <canvas id="previewCanvas" width="200" height="200"></canvas>
+    </div>
+    <div class="coords">
+        <p>X: <span id="xCoord">0</span></p>
+        <p>Y: <span id="yCoord">0</span></p>
+        <p>Width: <span id="widthCoord">0</span></p>
+        <p>Height: <span id="heightCoord">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
